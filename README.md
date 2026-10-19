@@ -179,25 +179,25 @@ The four images below are stored in `02_Results_and_Graphs/`. Ensure the images 
 
 ### 9.1 Primary and backup relay coordination
 
-![Primary and backup relay coordination curves](05_Screenshots/coordination_curves.png)
+![Primary and backup relay coordination curves](screenshots/coordination_curves.png)
 
 The graph compares the ideal IEC standard-inverse curves for primary TMS = 0.10 and backup TMS = 0.25. The backup curve is above the primary curve, indicating a longer ideal operating time for the same current multiple.
 
 ### 9.2 Three-phase current during fault
 
-![Three-phase current during fault](05_Screenshots/fault_current.png)
+![Three-phase current during fault](screenshots/fault_current.png)
 
 The figure compares measured currents at M1 and M2 and marks the configured fault-start and fault-clear times. Verify that the plotted event timing matches the final model settings before interpreting the waveform.
 
 ### 9.3 Normal-operation waveforms
 
-![Normal-operation voltage and current](05_Screenshots/normal_operation.png)
+![Normal-operation voltage and current](screenshots/normal_operation.png)
 
 This figure displays three-phase voltage and current at M1 during the normal-operation interval.
 
 ### 9.4 IEC standard-inverse relay characteristics
 
-![IEC standard-inverse relay characteristics](05_Screenshots/relay_characteristics.png)
+![IEC standard-inverse relay characteristics](screenshots/relay_characteristics.png)
 
 The primary and backup relay operating times decrease as current increases above pickup. The plotted characteristics are calculated from the IEC equation and configured TMS values.
 
